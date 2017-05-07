@@ -32,13 +32,11 @@ module.exports = {
 			'error',
 			'prefer-single'
 		],
-		'class-property/class-property-semicolon': ["error", "always"],
-		'react/jsx-closing-bracket-location': [
-			1,
-			{
-				selfClosing: 'after-props',
-				nonEmpty: 'after-props'
-			}
-		]
+		'class-property/class-property-semicolon': ['error', 'always'],
+		'react/jsx-tag-spacing': ['error', {
+			'closingSlash': 'never',
+			'beforeSelfClosing': 'never',
+			'afterOpening': 'never'
+		}]
 	}
 }
