@@ -32,7 +32,7 @@ module.exports = {
 			'error',
 			'prefer-single'
 		],
-		'class-properties/semi': ["error", "always"],
+		'class-properties/class-property-semicolon': ["error", "always"],
 		'react/jsx-closing-bracket-location': [
 			1,
 			{
