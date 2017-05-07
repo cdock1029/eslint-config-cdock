@@ -2,11 +2,6 @@
 module.exports = {
 	parser: 'babel-eslint',
 	extends: 'xo-react',
-	envs: [
-		'node',
-		'browser',
-		'es6'
-	],
 	plugins: [
 		'class-property'
 	],
@@ -37,6 +32,7 @@ module.exports = {
 			'error',
 			'prefer-single'
 		],
+		'class-properties/semi': ["error", "always"],
 		'react/jsx-closing-bracket-location': [
 			1,
 			{
