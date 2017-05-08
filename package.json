@@ -4,6 +4,7 @@
  "main": "index.js",
  "license": "MIT",
  "dependencies": {
+  "babel-eslint": "^7.0.0",
   "eslint": ">=3",
   "eslint-config-xo-react": "^0.11.1",
   "eslint-plugin-class-property": "^1.0.6",
