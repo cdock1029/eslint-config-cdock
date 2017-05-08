@@ -4,10 +4,10 @@
  "main": "index.js",
  "license": "MIT",
  "dependencies": {
-  "babel-eslint": "^7.0.0",
-  "eslint": ">=3",
-  "eslint-config-xo-react": "^0.11.1",
-  "eslint-plugin-class-property": "^1.0.6",
-  "eslint-plugin-react": "^7.0.0"
+  "babel-eslint": "latest",
+  "eslint": "latest",
+  "eslint-config-xo-react": "latest",
+  "eslint-plugin-class-property": "latest",
+  "eslint-plugin-react": "latest"
  }
 }
