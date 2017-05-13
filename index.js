@@ -37,6 +37,13 @@ module.exports = {
 			'closingSlash': 'never',
 			'beforeSelfClosing': 'never',
 			'afterOpening': 'never'
-		}]
+		}],
+		'react/jsx-closing-bracket-location': [
+    	1,
+     	{
+      	"selfClosing": "after-props",
+       	"nonEmpty": "after-props"
+     	}
+  	]
 	}
 }
